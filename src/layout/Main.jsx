@@ -128,7 +128,7 @@ const Main = () => {
   return (
     <>
       {loading ? (
-        <h1>loading ....</h1>
+        <span className="loading loading-ring loading-lg"></span>
       ) : (
         <div className="container mx-auto">
           <Nav />
