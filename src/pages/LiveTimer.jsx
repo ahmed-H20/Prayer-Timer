@@ -103,35 +103,35 @@ const LiveTimer = ({ times, dataToParent, nextPrayer, remainingTime }) => {
       <div className="carousel carousel-center rounded-box max-w-sm space-x-4 p-4 sm:hidden">
         <div className="carousel-item">
           <Card
-            img="public/12780409_5053115.jpg"
+            img="https://i.ibb.co/WW7qwv4/12780409-5053115.jpg"
             name="الفجر"
             time={times.Fajr}
           />
         </div>
         <div className="carousel-item">
           <Card
-            img="public/22870062_6660135.jpg"
+            img="https://i.ibb.co/GxB1v4X/22870062-6660135.jpg"
             name="الظهر"
             time={times.Dhuhr}
           />
         </div>
         <div className="carousel-item">
           <Card
-            img="public/23615694_6713878.jpg"
+            img="https://i.ibb.co/JF3VTtT/23615694-6713878.jpg"
             name="العصر"
             time={times.Asr}
           />
         </div>
         <div className="carousel-item">
           <Card
-            img="public/22632675_6647954.jpg"
+            img="https://i.ibb.co/SPSwNg2/22632675-6647954.jpg"
             name="المغرب"
             time={times.Sunset}
           />
         </div>
         <div className="carousel-item">
           <Card
-            img="public/22870099_6705765.jpg"
+            img="https://i.ibb.co/Bn60FWW/22870099-6705765.jpg"
             name="العشاء"
             time={times.Isha}
           />
